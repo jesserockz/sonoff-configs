@@ -1,0 +1,50 @@
+{
+  "name": "SwitchMan M5 1-gang",
+  "version": "2021.12.1",
+  "home_assistant_domain": "esphome",
+  "new_install_skip_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "sonoff-m5-1-gang/firmware.bin",
+          "offset": 65536
+        },
+        {
+          "path": "sonoff-m5-1-gang/bootloader_dio_40m.bin",
+          "offset": 4096
+        },
+        {
+          "path": "sonoff-m5-1-gang/partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "sonoff-m5-1-gang/boot_app0.bin",
+          "offset": 57344
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "sonoff-m5-3-gang/firmware.bin",
+          "offset": 65536
+        },
+        {
+          "path": "sonoff-m5-3-gang/bootloader_dio_40m.bin",
+          "offset": 4096
+        },
+        {
+          "path": "sonoff-m5-3-gang/partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "sonoff-m5-3-gang/boot_app0.bin",
+          "offset": 57344
+        }
+      ]
+    }
+  ]
+}
