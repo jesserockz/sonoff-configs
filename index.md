@@ -1,5 +1,11 @@
 This site contains a list of Sonoff devices and pre-built base firmwares for each you can install to get started.
 
+# SwitchMan M5 1-Gang
+
+You can use the button below to install the SwitchMan M5 1-Gang firmware directly to your device via a USB serial adapter from the browser.
+
+<esp-web-install-button manifest="./switchman-m5-1-gang-manifest.json"></esp-web-install-button>
+
 # SwitchMan M5 3-Gang
 
 You can use the button below to install the SwitchMan M5 3-Gang firmware directly to your device via a USB serial adapter from the browser.
