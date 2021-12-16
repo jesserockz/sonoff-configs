@@ -1,5 +1,5 @@
 substitutions:
-  name: Sonoff SwitchMan M5 3-gang
+  name: sonoff-m5-3-gang
   friendly_name: Sonoff SwitchMan M5 3-gang
 
 esphome:
