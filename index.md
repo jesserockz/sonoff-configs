@@ -1,6 +1,4 @@
-# About
-
-Below is a list of Sonoff devices and pre-built base firmwares for each you can install to get started.
+This site contains a list of Sonoff devices and pre-built base firmwares for each you can install to get started.
 
 # SwitchMan M5 3-Gang
 
