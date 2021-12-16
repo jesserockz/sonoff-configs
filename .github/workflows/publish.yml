@@ -7,11 +7,11 @@ on:
 
 jobs:
   build:
-    uses: esphome/workflows/.github/workflows/publish.yml@main
+    uses: esphome/workflows/.github/workflows/publish.yml@multiple-builds
     with:
-      # CHANGEME: Set the filenames of your config files here:
-      files: project-template-esp32.yaml,project-template-esp8266.yaml
-      # CHANGEME: Set the name of your project here:
-      name: Template Project
+      files: sonoff-switchman-m5-3-gang.yaml
+      name: SwitchMan M5 3-gang
+      manifest_filename: switchman-m5-3-gang-manifest.json
+      clean: false
     secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
