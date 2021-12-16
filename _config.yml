@@ -1,4 +1,3 @@
-# CHANGEME: Set these variable to your liking
-title: ESPHome Project Template
+title: ESPHome firmware for Sonoff devices
 description: Powered by ESPHome and ESP Web Tools
-theme: jekyll-theme-slate
+theme: jekyll-theme-tactile
