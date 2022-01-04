@@ -15,8 +15,6 @@ jobs:
       name: SwitchMan M5 3-gang
       manifest_filename: switchman-m5-3-gang-manifest.json
       clean: false
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
   publish-m5-1-gang:
@@ -27,5 +25,3 @@ jobs:
       name: SwitchMan M5 1-gang
       manifest_filename: switchman-m5-1-gang-manifest.json
       clean: false
-    secrets:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
