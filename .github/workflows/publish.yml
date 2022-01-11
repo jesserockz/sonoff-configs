@@ -9,7 +9,7 @@ on:
 jobs:
   publish-m5-3-gang:
     name: Publish M5 3-gang
-    uses: esphome/workflows/.github/workflows/publish.yml@multiple-builds
+    uses: esphome/workflows/.github/workflows/publish.yml@fix-folders
     with:
       files: sonoff-switchman-m5-3-gang.yaml
       name: SwitchMan M5 3-gang
@@ -19,7 +19,7 @@ jobs:
 
   publish-m5-1-gang:
     name: Publish M5 1-gang
-    uses: esphome/workflows/.github/workflows/publish.yml@multiple-builds
+    uses: esphome/workflows/.github/workflows/publish.yml@fix-folders
     with:
       files: sonoff-switchman-m5-1-gang.yaml
       name: SwitchMan M5 1-gang
